@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220929104345">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<div class="header__left">
+						<div class="header__logo logo">
+							<div class="logo__name">
+								<span>it-</span><span>spk</span>
+							</div>
+							<div class="logo__slogan">
+								simple power of knowledge
+							</div>
+						</div>
+						<button class="logo__ua">
+							<p>ua</p>
+						</button>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<div class="menu__logo menu-logo">
+								<div class="menu-logo__name">
+									<span>it-</span><span>spk</span>
+								</div>
+								<div class="menu-logo__slogan">
+									simple power of knowledge
+								</div>
+							</div>
+							<ul class="menu__contacts contacts">
+								<li>
+									<a href="tel:+380 93 541 20 92" class="contacts__phone">+380 93 541 20 92</a>
+									<div class="contacts__operator">lifecell</div>
+
+								</li>
+								<li>
+									<a href="tel:++380 99 311 29 79" class="contacts__phone">+380 99 311 29 79</a>
+									<div class="contacts__operator">Vodafone</div>
+
+								</li>
+							</ul>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" data-goto="#about" class="menu__link">О нас</a></li>
+								<li class="menu__item"><a href="#" data-goto="#services" class="menu__link">Услуги</a></li>
+								<li class="menu__item"><a href="#" data-goto="#prices" class="menu__link">Цены</a></li>
+							</ul>
+							<div class="menu__lang">
+								<button>UA</button>
+								<button>EN</button>
+							</div>
+							<button data-popup="#contact_form" class="menu__send send-button">
+								<div class="send-button__text">
+									Отправить заявку
+								</div>
+								<div class="send-button__arrow">
+								</div>
+							</button>
+
+						</nav>
+					</div>
+					<ul class="header__contacts contacts">
+						<li class="contacts__line">
+							<div class="contacts__operator">lifecell</div>
+							<a href="tel:+380 93 541 20 92" class="contacts__phone">+380 93 541 20 92</a>
+						</li>
+						<li class="contacts__line">
+							<div class="contacts__operator">Vodafone</div>
+							<a href="tel:++380 99 311 29 79" class="contacts__phone">+380 99 311 29 79</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="intro">
+				<div class="intro__container">
+					<h1 class="intro__title">
+						IT-Аутсорсинг <br> компания в Киеве
+					</h1>
+					<p class="intro__subtitle">
+						Обслуживание компьютеров в Киеве
+					</p>
+					<p class="intro__prices">
+					<p class="intro__prices--large">От <span class="intro__prices--larger">315</span><span>грн</span>/мес</p>
+					<p>за 1 рабочее место</p>
+					</p>
+					<div class="intro__group">
+						<button data-popup="#contact_form" class="intro__send send-button">
+							<div class="send-button__text">
+								Отправить заявку
+							</div>
+							<div class="send-button__arrow">
+							</div>
+						</button>
+						<p class="intro__slogan">
+							Мы знаем как сложно найти хорошую компанию по обслуживанию компьютеров в Киеве. Исправим это!
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div class="about__wrapper">
+						<h2 class="about__title title" id="about">О нас</h2>
+						<div class="about__text description">IT-SPK - сервисная компания по обслуживанию АйТи инфраструктуры для бизнеса. Мы небольшая команда фанатов своего дела c многолетним опытом работы.
+							Решаем любые ИТ задачи в Киеве: проектирование, монтаж и поддержка ИТ инфраструктуры, настройка и поддержка серверов, виртуализация, обслуживание компьютеров, поддержка пользователей.</div>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<h2 class="services__title title" id="services">
+						Услуги
+					</h2>
+					<div class="services__grid grid">
+						<div class="grid__element service">
+							<div class="service__picture">
+								<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt="Обслуживание компьютеров"></picture>
+							</div>
+							<h4 class="service__title">
+								Обслуживание <br> компьютеров
+							</h4>
+						</div>
+
+						<div class="grid__element service">
+							<div class="service__picture">
+								<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpg" alt="Обслуживание серверов"></picture>
+							</div>
+							<h4 class="service__title">
+								Обслуживание <br> серверов
+							</h4>
+						</div>
+
+						<div class="grid__element service">
+							<div class="service__picture">
+								<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt="Виртуализация 1С"></picture>
+							</div>
+							<h4 class="service__title">
+								Виртуализация <br> 1С
+							</h4>
+						</div>
+
+						<div class="grid__element service">
+							<div class="service__picture">
+								<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt="Аудит ИТ-инфраструктуры и проектирование"></picture>
+							</div>
+							<h4 class="service__title">
+								Аудит <br> ИТ-инфраструктуры <br>
+								и проектирование
+							</h4>
+						</div>
+
+						<div class="grid__element service shift12-left">
+							<div class="service__picture ">
+								<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.jpg" alt="езервное копирование"></picture>
+							</div>
+							<h4 class="service__title">
+								Резервное <br> копирование
+							</h4>
+						</div>
+
+						<div class="grid__element service shift2-left">
+							<div class="service__picture">
+								<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpg" alt="Переезд ИТ инфраструктуры"></picture>
+							</div>
+							<h4 class="service__title">
+								Переезд ИТ <br> инфраструктуры
+							</h4>
+						</div>
+					</div>
+					<h3 class="services__subtitle">
+						C IT-SPK ваш офис будет работать эффективно и безотказно
+					</h3>
+					<div class="services__details">
+						<p class="services__text">
+							За время работы мы подобрали оптимальные решения по соотношению цена-качество для организации офисной IT-инфраструктуры.
+							Огромный опыт обслуживания объектов в Киеве от офиса на несколько рабочих мест до офисно-производственных комплексов на тысячи квадартных метров и более полутора сотен подключенных абонентов.
+						</p>
+						<p class="services__text">
+							Абонентское обслуживание компьютеров в Киеве уже сейчас не оставляет шансов на выживание обычным сисадминам в штате компании, прежний подход дороже и неэффективный.
+							С первого дня работы с нами вы получаете доступ ко всем нашим знаниям, опыту и ресурсам.
+						</p>
+					</div>
+					<button data-popup="#contact_form" class="services__send send-button">
+						<div class="send-button__text">
+							Отправить заявку
+						</div>
+						<div class="send-button__arrow">
+						</div>
+					</button>
+				</div>
+			</section>
+			<section class="target">
+				<div class="target__container">
+					<div class="target__wrapper">
+						<div class="target__logo">
+							<div class="target__picture">
+								<picture><source srcset="img/target.webp" type="image/webp"><img src="img/target.jpg" alt="target"></picture>
+							</div>
+							<h5 class="target__title">
+								Цель <br> IT-SPK
+							</h5>
+						</div>
+						<h4 class="target__goal">
+							Сократить расходы на ИТ + <br> оптимизировать работу = увеличить <br> вашу прибыль и отрыв от
+							конкурентов
+						</h4>
+					</div>
+					<h4 class="target__connection">
+						Подключить обслуживание компьютеров у нас очень просто
+					</h4>
+					<ul class="target__steps">
+						<li class="target__step step">
+							<div class="step__wrapper">
+								<div class="step__number">1</div>
+								<h4 class="step__text">Оставить заявку на сайте <br> или просто позвонить нам</h4>
+							</div>
+						</li>
+						<li class="target__step step">
+							<div class="step__wrapper">
+								<div class="step__number">2</div>
+								<h4 class="step__text">Мы проведем бесплатный <br> аудит и подготовим <br> коммерческое предложение
+								</h4>
+							</div>
+						</li>
+						<li class="target__step step">
+							<div class="step__wrapper">
+								<div class="step__number">3</div>
+								<h4 class="step__text">Заключаем договор и ваш <br> офис работает безотказно</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="prices">
+				<div class="prices__container">
+					<h2 class="prices__title title" id="prices">
+						Цены
+					</h2>
+					<div class="prices__wrapper">
+						<div class="prices__info">
+							<p class="prices__text">
+								У нас нет зарплаты или фиксированной суммы в месяц, все рассчеты базируются только на количестве
+								компьютеров, которые мы берем на обслуживание и подключенных услугах.
+								Платите только за что чем пользуетесь - <span>максимальная экономия и эффективность</span>.
+							</p>
+							<p class="prices__text">
+								Оставьте заявку на обслуживание компьютеров и мы подготовим предложение специально для вас
+							</p>
+							<div class="prices__buttons">
+								<button class="price">
+									<div class="price__wrapper">
+										<div class="price__title">
+											Прайс it
+										</div>
+										<div class="price__icon">
+											<picture><source srcset="img/Download.webp" type="image/webp"><img src="img/Download.png" alt="Download"></picture>
+										</div>
+									</div>
+								</button>
+								<button class="price">
+									<div class="price__wrapper">
+										<div class="price__title">
+											Прайс монтаж
+										</div>
+										<div class="price__icon">
+											<picture><source srcset="img/Download.webp" type="image/webp"><img src="img/Download.png" alt="Download"></picture>
+										</div>
+									</div>
+								</button>
+							</div>
+						</div>
+						<div class="prices__cards">
+							<div class="prices__card card">
+								<a href="">
+									<p class="card__type">Тарифный план</p>
+									<p class="card__title">Легкий старт</p>
+									<p class="card__price">350</p>
+									<p class="card__units">грн/мес</p>
+									<p class="card__for">за 1 рабочее место</p>
+								</a>
+							</div>
+							<div class="prices__card card">
+								<a href="">
+									<p class="card__type">Тарифный план</p>
+									<p class="card__title">Бизнес</p>
+									<p class="card__price">310</p>
+									<p class="card__units">грн/мес</p>
+									<p class="card__for">за 1 рабочее место</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="clients">
+				<div class="clients__container">
+					<h2 class="clients__title">Клиенты</h2>
+					<div class="clients__row">
+						<div class="clients__item">
+							<picture><source srcset="img/11.webp" type="image/webp"><img src="img/11.jpg" alt="client_1"></picture>
+						</div>
+						<div class="clients__item">
+							<picture><source srcset="img/22.webp" type="image/webp"><img src="img/22.jpg" alt="client_2"></picture>
+						</div>
+						<div class="clients__item">
+							<picture><source srcset="img/33.webp" type="image/webp"><img src="img/33.jpg" alt="client_3"></picture>
+						</div>
+						<div class="clients__item">
+							<picture><source srcset="img/44.webp" type="image/webp"><img src="img/44.jpg" alt="client_4"></picture>
+						</div>
+						<div class="clients__item">
+							<picture><source srcset="img/55.webp" type="image/webp"><img src="img/55.jpg" alt="client_5"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="organization">
+				<div class="organization__container">
+					<h6 class="organization__title title">Организация IT-инфраструктуры в Киеве</h6>
+					<div class="organization__wrapper">
+						<div class="organization__details">
+							<p class="organization__text">
+								Мы имеем большой опыт организации работы IT отделов разных компаний из города Киев и на основе
+								этого создали универсальный протокол работы, который гарантирует стабильно высокое качество
+								предоставления услуг.
+							</p>
+							<p class="organization__text">
+								Всегда на старте проводим аудит существующих апаратных и программных решений.
+								Берем во внимание как проложены сети, установленное серверное и коммутационное оборудование, к каким
+								провайдерам и на каких условиях подключено.
+								Анализ установленных компьютеров и оборудования, завязанных в сеть компании. По результатам этого
+								этапа работы мы даем комплексный отчет с
+								перечнем найденных критических и потенциально проблемных мест в ИТ-инфраструктуре компании, с
+								вариантами их устранения.
+							</p>
+							<p class="organization__text">
+								В случае если идет проектирование IT-инфраструктуры с нуля, мы учтем все пожелания и сразу сделаем
+								все необходимое
+								для бесперебойной работы компьютерной сети компании.
+							</p>
+							<p class="organization__text">
+								Спланируем и организуем переезд всех IT-систем офиса на новую локацию или удаленную работу
+								сотрудников при необходимости.
+							</p>
+						</div>
+						<div class="organization__details">
+							<ul class="organization__text">
+								Услуги обслуживания компьютеров и серверов в Киеве это не только установить Windows и кинуть провод,
+								это большой и сложный комплекс услуг:
+								<li>- Установка, настройка и сопровождение ПО;</li>
+								<li>- Администрирование доменных, почтовых, файловых и хостинг серверов;</li>
+								<li>- Обеспечение защиты данных;</li>
+								<li>- Восстановление потерянных данных;</li>
+								<li>- Внедрение решений по защите конфиденциальной информации;</li>
+								<li>- Безопасный удаленный доступ к информации;</li>
+								<li>- Обслуживание бухгалтерских программ 1С Предприятие, M.E.Doc и других;</li>
+								<li>- Внедрение и сопровождение серверов IP телефонии;</li>
+								<li>- Монтаж и обслуживание сетей (СКС);</li>
+								<li>- Ремонт и обслуживание компьютеров, оргтехники.</li>
+								<li>- Оперативная техническая поддержка и консультация сотрудников</li>
+								<li>- Ведение первичной документации, сметы, логистика, снабжение <br> ИТ-отдела.</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<div class="contact__wrapper">
+						<div class="contact__text">
+							Оставьте заявку <br> на обслуживание <br> компьютеров и мы <br> свяжемся с вами
+						</div>
+						<div class="contact__form">
+							<form action="#" method="post" enctype="multipart/form-data" class="form">
+								<div class="form__field">
+									<input type="text" name="userName" class="form__text" placeholder="Имя" tabindex="1">
+								</div>
+								<div class="form__field">
+									<input type="tel" name="phoneNumber" class="form__text" placeholder="Номер телефона*" tabindex="2">
+								</div>
+								<div class="form__field">
+									<input type="email" name="userEmail" class="form__text" placeholder="E-mail" tabindex="3">
+								</div>
+								<div class="form__field">
+									<textarea name="message" id="" class="form__textarea" placeholder="Сообщение" tabindex="4"></textarea>
+								</div>
+								<div class="form__checkbox">
+									<label class="form__agreement-text ">
+										<input type="checkbox" name="agreement" class="form__agreement " tabindex="5">
+										<span class="form__agreement-mask "></span>
+										Даю согласие на обработку персональных данных
+									</label>
+								</div>
+								<div>
+									<button type="send" class="contact__send send-button" tabindex="6">
+										<div class="send-button__text">
+											Отправить
+										</div>
+										<div class="send-button__arrow">
+										</div>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<div class="footer__contacts">
+						<div class="footer__email">info@it-spk.com</div>
+						<ul class="footer__phones phones">
+							<li class="phones__line">
+								<a href="tel:+380 93 541 20 92" class="phones__phone">+380 93 541 20 92</a>
+								<div class="phones__operator">lifecell</div>
+							</li>
+							<li class="phones__line">
+								<a href="tel:++380 99 311 29 79" class="phones__phone">+380 99 311 29 79</a>
+								<div class="phones__operator">Vodafone</div>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__names">
+						<div class="footer__service">
+							Обслуживание компьютеров и <br> монтаж сетей в Киеве
+						</div>
+						<div class="footer__name">
+							IT-SPK © 2021
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="contact_form" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span></span></button>
+				<div class="popup__form">
+
+					<form action="#" method="post" enctype="multipart/form-data" class="popup-form">
+						<div class="popup-form__field">
+							<input type="text" name="userName" class="popup-form__text" placeholder="Имя" tabindex="1">
+						</div>
+						<div class="popup-form__field">
+							<input type="tel" name="phoneNumber" class="popup-form__text" placeholder="Номер телефона*" tabindex="2">
+						</div>
+						<div class="popup-form__field">
+							<input type="email" name="userEmail" class="popup-form__text" placeholder="E-mail" tabindex="3">
+						</div>
+						<div class="popup-form__field">
+							<textarea name="message" id="" class="popup-form__textarea" placeholder="Сообщение" tabindex="4"></textarea>
+						</div>
+						<div class="popup-form__checkbox">
+							<label class="popup-form__agreement-text ">
+								<input type="checkbox" name="agreement" class="popup-form__agreement " tabindex="5">
+								<span class="popup-form__agreement-mask "></span>
+								Даю согласие на обработку персональных данных
+							</label>
+						</div>
+						<div>
+							<button type="send" class="contact__send send-button" tabindex="6">
+								<div class="send-button__text">
+									Отправить
+								</div>
+								<div class="send-button__arrow">
+								</div>
+							</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/app.min.js?_v=20220929104345"></script>
+</body>
+
+</html>
